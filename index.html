@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- Google Optimize -->
+    <script src="https://www.googleoptimize.com/optimize.js?id=OPT-MXSD7VT"></script>
+    <!-- Google Optimize -->
     <meta charset="UTF-8" />
 
     <title>Marcus Ungarette - Desenvolvedor Web</title>
@@ -40,8 +43,33 @@
     />
 
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-KZ8TC66');
+    </script>
+    <!-- End Google Tag Manager -->
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-KZ8TC66"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header>
       <div class="logo"></div>
       <button class="nav-toggle" aria-label="toggle navigation">
@@ -103,8 +131,8 @@
         <div class="service">
           <h3>GatsbyJS</h3>
           <p>
-            Uma PWA que performa com GraphQL no carregamento e
-            otimização de imagens.
+            Uma PWA que performa com GraphQL no carregamento e otimização de
+            imagens.
           </p>
         </div>
         <!-- / service -->
@@ -130,7 +158,9 @@
           de lá voltei com o desejo e objetivo de me tornar Desenvolvedor Web.
         </p>
         <p>
-          Atualmente trabalho como Desenvolvedor Junior em uma consultoria especializada em DeepTech. E busco me tornar um especialista em desenvolvimento Web.
+          Atualmente trabalho como Desenvolvedor Junior em uma consultoria
+          especializada em DeepTech. E busco me tornar um especialista em
+          desenvolvimento Web.
         </p>
       </div>
 
@@ -175,34 +205,70 @@
     <section class="contact-me" id="form">
       <h2 class="section__title section__title--contact">Orçamento</h2>
       <p class="section__subtitle section__subtitle--contact">
-         Coloque seu projeto na Web
+        Coloque seu projeto na Web
       </p>
     </section>
-      <div class="form">
-        <form  alt="Form" id="contact" action="" method="post" data-netlify="true">
-          <h3>Envie sua mensagem</h3>
-          <h4>Respondemos dentro de 24hrs !</h4>
-          <fieldset>
-            <input placeholder="Nome" type="text" name="name" tabindex="1" required>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Email" type="email" name="email" tabindex="2" required>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Telefone" type="tel" name="phone" tabindex="3" required>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Seu site com http://" type="url" name="url" tabindex="4" required>
-          </fieldset>
-          <fieldset>
-            <textarea placeholder="Descreva que tipo de servico esta buscando...." name="text" tabindex="5" required></textarea>
-          </fieldset>
-          <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
-          </fieldset>
-        </form>
-      </div>
-    
+    <div class="form">
+      <form alt="Form" id="contact" action="" method="post" data-netlify="true">
+        <h3>Envie sua mensagem</h3>
+        <h4>Respondemos dentro de 24hrs !</h4>
+        <fieldset>
+          <input
+            placeholder="Nome"
+            type="text"
+            name="name"
+            tabindex="1"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Email"
+            type="email"
+            name="email"
+            tabindex="2"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Telefone"
+            type="tel"
+            name="phone"
+            tabindex="3"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Seu site com http://"
+            type="url"
+            name="url"
+            tabindex="4"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <textarea
+            placeholder="Descreva que tipo de servico esta buscando...."
+            name="text"
+            tabindex="5"
+            required
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <button
+            name="submit"
+            type="submit"
+            id="contact-submit"
+            data-submit="...Sending"
+          >
+            Enviar
+          </button>
+        </fieldset>
+      </form>
+    </div>
+
     <!-- Footer -->
     <footer class="footer" id="footer">
       <a href="mailto:marcusungarette@gmail.com" class="footer__link"
